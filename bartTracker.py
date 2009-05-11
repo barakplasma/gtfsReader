@@ -12,6 +12,6 @@ shapes = open('shapes.txt','r')
 frequencies = open('frequencies.txt','r')
 transfers = open('transfers.txt','r')
 #print agency
-print agency.readline()
+print agency.read()
 agency.close()
 #print agency
